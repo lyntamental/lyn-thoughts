@@ -4,10 +4,10 @@ import type { Site, SocialMediaObjects } from "./types";
 
 export const SITE: Site = {
     siteUrl: "https:/astro-lane.chrstnl.com/", // Always put "/" at the end of the URL
-    author: "chrstnl",
-    desc: "A personal portfolio landing template for developers and designers.",
-    title: "Astro Lane",
-    ogImage: "images/astro-lane.png",
+    author: "lyntamental",
+    desc: "A personal blog and sketch portfolio for lyntamental.",
+    title: "Lyn's Mental.",
+    ogImage: "images/cherry_soda.jpg",
     keywords:
         "Personal portfolio, landing page, page template, developer portfoliom designer portfolio",
     postPerPage: 3
@@ -18,45 +18,45 @@ export const SITE: Site = {
 export const SOCIALS: SocialMediaObjects = [
     {
         name: "Github",
-        href: "https://github.com/christian-luntok/astro-lane/",
+        href: "https://github.com/lyntamental",
         icon: "ph:github-logo-duotone",
         title: `Follow ${SITE.author} on Github`,
         active: true
     },
     {
         name: "Facebook",
-        href: "https://github.com/christian-luntok/astro-lane/",
+        href: "https://i.pinimg.com/564x/30/a4/ca/30a4ca798d4c0d7f8d656bcfe6db613f.jpg",
         icon: "ph:facebook-logo-duotone",
         title: `Follow ${SITE.title} on Facebook`,
-        active: false
+        active: true
     },
     {
         name: "Instagram",
         href: "https://github.com/christian-luntok/astro-lane/",
         icon: "ph:instagram-logo-duotone",
         title: `Follow ${SITE.author} on Instagram`,
-        active: true
+        active: false
     },
     {
         name: "LinkedIn",
-        href: "https://github.com/christian-luntok/astro-lane/",
+        href: "https://www.linkedin.com/in/lyn-dickinson-125002173/",
         icon: "ph:linkedin-logo-duotone",
         title: `Follow ${SITE.title} on LinkedIn`,
         active: true
     },
     {
         name: "Mail",
-        href: "mailto:yourmail@gmail.com",
+        href: "mailto:lyntamental@gmail.com",
         title: `Send an email to ${SITE.title}`,
         icon: "",
         active: false
     },
     {
         name: "Twitter",
-        href: "https://github.com/christian-luntok/astro-lane/",
+        href: "https://twitter.com/lyntamental",
         icon: "ph:twitter-logo-duotone",
         title: `Follow ${SITE.author} on Twitter`,
-        active: true
+        active: false
     },
     {
         name: "YouTube",
